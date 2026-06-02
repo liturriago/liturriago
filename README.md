@@ -9,7 +9,7 @@
 
 <br/>
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=17&duration=2800&pause=1000&color=00A3FF&center=true&vCenter=true&width=650&lines=Data+Scientist+%7C+Machine+Learning+Engineer+%F0%9F%A7%A0;PhD+Researcher+at+Universidad+Nacional+%F0%9F%8E%93;Training+and+deploying+scalable+AI+solutions+%F0%9F%9A%80;Computer+Vision+%7C+Domain+Adaptation+%7C+MLOps+%E2%9A%99%EF%B8%8F" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=17&duration=2800&pause=1000&color=00A3FF&center=true&vCenter=true&width=650&lines=Data+Scientist+%7C+Machine+Learning+Engineer+%F0%9F%A7%A0;PhD+Researcher+at+Universidad+Nacional+de+Colombia%F0%9F%8E%93;Training+and+deploying+scalable+AI+solutions+%F0%9F%9A%80;Computer+Vision+%7C+Domain+Adaptation+%7C+MLOps+%E2%9A%99%EF%B8%8F" />
 
 <br/><br/>
 
