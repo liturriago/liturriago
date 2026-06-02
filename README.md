@@ -37,6 +37,8 @@ const lucas: DataScientist = {
   building: ["gcpds-cv-pykit", "Annot Harmony", "Multimodal Search Engine"],
   status:   "researching & building 🚀",
 };
+```
+<br/>
 
 <!-- ▓▓▓ STACK ▓▓▓ -->
 ## `◈` Tech Stack
