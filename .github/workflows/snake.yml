@@ -2,10 +2,10 @@ name: Generate Snake Animation
 
 on:
   schedule:
-    - cron: "0 12 * * *" # Runs automatically every day at 12:00 PM UTC
-  workflow_dispatch:     # Allows manual trigger via the GitHub Actions tab
+    - cron: "0 12 * * *"
+  workflow_dispatch:
   push:
-    branches: [main]     # Runs on every push to the main branch
+    branches: [main]
 
 permissions:
   contents: write
@@ -15,7 +15,6 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 10
     steps:
-      # Generates the snake game grid from the user's contributions
       - uses: Platane/snk/svg-only@v3
         with:
           github_user_name: liturriago
@@ -23,36 +22,31 @@ jobs:
             dist/github-contribution-grid-snake.svg
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
 
-      # Custom Blue Theme Layer
-      - name: Apply blue and cyan theme
+      - name: Apply blue theme
         run: |
-          # LIGHT MODE CUSTOMIZATION
-          # --cs: Snake head | --c1 to --c4: Contribution intensity grids (Light Blue to Dark Blue)
+          # LIGHT mode - blue snake, blue gradient squares
           sed -i \
-            -e 's/--cs:[^;]*/--cs:#00A3FF/g' \
-            -e 's/--c1:[^;]*/--c1:#E0F0FF/g' \
-            -e 's/--c2:[^;]*/--c2:#99C2FF/g' \
-            -e 's/--c3:[^;]*/--c3:#00509E/g' \
-            -e 's/--c4:[^;]*/--c4:#002A66/g' \
+            -e 's/--cs:[^;]*/--cs:#0052FF/g' \
+            -e 's/--c1:[^;]*/--c1:#D6E4FF/g' \
+            -e 's/--c2:[^;]*/--c2:#85ADFF/g' \
+            -e 's/--c3:[^;]*/--c3:#3377FF/g' \
+            -e 's/--c4:[^;]*/--c4:#0052FF/g' \
             dist/github-contribution-grid-snake.svg
 
-          # DARK MODE CUSTOMIZATION
-          # Injecting a deep dark blue canvas background (#050b14)
-          sed -i 's|<svg \([^>]*\)>|<svg \1><rect width="100%" height="100%" fill="#050b14"/>|g' \
+          # DARK mode - adds dark background + visible squares + blue snake
+          sed -i 's|<svg \([^>]*\)>|<svg \1><rect width="100%" height="100%" fill="#0B0B12"/>|g' \
             dist/github-contribution-grid-snake-dark.svg
 
-          # --cs: Neon Cyan Snake | --ce/--c0: Empty nodes | --c1 to --c4: Deep tech blue gradients
           sed -i \
-            -e 's/--cs:[^;]*/--cs:#00A3FF/g' \
-            -e 's/--ce:[^;]*/--ce:#0e192c/g' \
-            -e 's/--c0:[^;]*/--c0:#0e192c/g' \
-            -e 's/--c1:[^;]*/--c1:#002A66/g' \
-            -e 's/--c2:[^;]*/--c2:#00509E/g' \
-            -e 's/--c3:[^;]*/--c3:#0077E6/g' \
-            -e 's/--c4:[^;]*/--c4:#00A3FF/g' \
+            -e 's/--cs:[^;]*/--cs:#0052FF/g' \
+            -e 's/--ce:[^;]*/--ce:#161B22/g' \
+            -e 's/--c0:[^;]*/--c0:#161B22/g' \
+            -e 's/--c1:[^;]*/--c1:#002266/g' \
+            -e 's/--c2:[^;]*/--c2:#003399/g' \
+            -e 's/--c3:[^;]*/--c3:#0044CC/g' \
+            -e 's/--c4:[^;]*/--c4:#0052FF/g' \
             dist/github-contribution-grid-snake-dark.svg
 
-      # Deploy the generated SVGs to an isolated 'output' branch
       - uses: crazy-max/ghaction-github-pages@v4
         with:
           target_branch: output
