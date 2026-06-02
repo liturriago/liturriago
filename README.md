@@ -82,13 +82,14 @@ const lucas: DataScientist = {
 
 <br/><br/>
 
-<img width="100%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=liturriago&theme=blue_ocean"/>
-
 <table>
 <tr>
-<td><img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=liturriago&theme=blue_ocean"/></td>
-<td><img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=liturriago&theme=blue_ocean"/></td>
-<td><img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=liturriago&theme=blue_ocean&utcOffset=-5"/></td>
+<td valign="top" width="50%">
+  <img src="https://github-readme-stats.vercel.app/api?username=liturriago&show_icons=true&title_color=0052FF&icon_color=0052FF&text_color=B8B8C0&bg_color=0B0B12&border_color=0052FF&border_radius=4"/>
+</td>
+<td valign="top" width="50%">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=liturriago&layout=compact&title_color=0052FF&icon_color=0052FF&text_color=B8B8C0&bg_color=0B0B12&border_color=0052FF&border_radius=4"/>
+</td>
 </tr>
 </table>
 
