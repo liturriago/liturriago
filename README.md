@@ -82,16 +82,12 @@ const lucas: DataScientist = {
 
 <br/><br/>
 
-<table>
-<tr>
 <td valign="top" width="50%">
-  <img src="https://github-readme-stats.vercel.app/api?username=liturriago&show_icons=true&title_color=0052FF&icon_color=0052FF&text_color=B8B8C0&bg_color=0B0B12&border_color=0052FF&border_radius=4"/>
+  <img src="https://YOUR-NEW-DOMAIN.vercel.app/api?username=liturriago&show_icons=true&title_color=0052FF&icon_color=0052FF&text_color=B8B8C0&bg_color=0B0B12&border_color=0052FF&border_radius=4"/>
 </td>
 <td valign="top" width="50%">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=liturriago&layout=compact&title_color=0052FF&icon_color=0052FF&text_color=B8B8C0&bg_color=0B0B12&border_color=0052FF&border_radius=4"/>
+  <img src="https://YOUR-NEW-DOMAIN.vercel.app/api/top-langs/?username=liturriago&layout=compact&title_color=0052FF&icon_color=0052FF&text_color=B8B8C0&bg_color=0B0B12&border_color=0052FF&border_radius=4"/>
 </td>
-</tr>
-</table>
 
 </div>
 
