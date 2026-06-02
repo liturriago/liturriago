@@ -47,7 +47,7 @@ const lucas: DataScientist = {
 
 **— Machine Learning & Data Science —**
 
-<img src="https://skillicons.dev/icons?i=python,pytorch,tensorflow,numpy,sklearn,opencv&theme=dark&perline=8"/>
+<img src="https://skillicons.dev/icons?i=python,pytorch,tensorflow,sklearn,opencv&theme=dark&perline=8"/>
 
 <br/>
 
