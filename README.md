@@ -15,7 +15,7 @@
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-00509E?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/lucas-iturriago)
 [![GitHub](https://img.shields.io/badge/GitHub-121212?style=for-the-badge&logo=github&logoColor=white)](https://github.com/liturriago)
-[![Email](https://img.shields.io/badge/Email-00A3FF?style=for-the-badge&logo=gmail&logoColor=white)](mailto:lucasiturriago@gmail.com)
+[![Email](https://img.shields.io/badge/Email-00A3FF?style=for-the-badge&logo=gmail&logoColor=white)](mailto:liturriago@unal.edu.co)
 
 <br/>
 
