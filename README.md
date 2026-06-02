@@ -5,7 +5,7 @@
 <!-- ▓▓▓ HERO ▓▓▓ -->
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0052FF&height=260&text=Lucas%20M.%20Iturriago&fontSize=54&fontColor=FFFFFF&animation=fadeIn&fontAlignY=42&desc=Data%20Scientist%20%E2%80%94%20CV%20%26%20ML%20Engineer%20%E2%80%94%20PhD%20Researcher&descAlignY=62&descFontColor=E0EFFF&descFontSize=17"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0052FF&height=260&text=Lucas%20M.%20Iturriago&fontSize=54&fontColor=FFFFFF&animation=fadeIn&fontAlignY=42&desc=Data%20Scientist%20%E2%80%94%20CV%20and%20ML%20Engineer%20%E2%80%94%20PhD%20Researcher&descAlignY=62&descFontColor=E0EFFF&descFontSize=17"/>
 
 <br/>
 
