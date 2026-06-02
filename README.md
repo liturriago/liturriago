@@ -80,17 +80,6 @@ const lucas: DataScientist = {
 
 <img src="https://streak-stats.demolab.com/?user=liturriago&cache_seconds=1800&background=0B0B12&ring=0052FF&fire=0099FF&currStreakLabel=0052FF&border=0052FF&sideLabels=66B2FF&dates=B8B8C0&currStreakNum=F5F5F5&sideNums=F5F5F5"/>
 
-<br/><br/>
-
-<td valign="top" width="50%">
-  <img src="https://YOUR-NEW-DOMAIN.vercel.app/api?username=liturriago&show_icons=true&title_color=0052FF&icon_color=0052FF&text_color=B8B8C0&bg_color=0B0B12&border_color=0052FF&border_radius=4"/>
-</td>
-<td valign="top" width="50%">
-  <img src="https://YOUR-NEW-DOMAIN.vercel.app/api/top-langs/?username=liturriago&layout=compact&title_color=0052FF&icon_color=0052FF&text_color=B8B8C0&bg_color=0B0B12&border_color=0052FF&border_radius=4"/>
-</td>
-
-</div>
-
 <br/>
 
 <!-- ▓▓▓ PROJECTS ▓▓▓ -->
