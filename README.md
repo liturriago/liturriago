@@ -28,15 +28,25 @@
 <!-- ▓▓▓ ABOUT ▓▓▓ -->
 ## `◈` About Me
 
-```ts
-const lucas: DataScientist = {
-  name:     "Lucas M. Iturriago",
-  role:     "Data Scientist | ML Engineer | PhD Researcher",
-  location: "Manizales, Colombia 🇨🇴",
-  focus:    ["Computer Vision", "Edge AI", "MLOps", "Deep Learning"],
-  building: ["gcpds-cv-pykit", "Annot Harmony", "Multimodal Search Engine"],
-  status:   "researching & building 🚀",
-};
+```python
+lucas = {
+    "name": "Lucas M. Iturriago",
+    "role": "Data Scientist | ML Engineer | PhD Researcher",
+    "location": "Manizales, Colombia 🇨🇴",
+    "focus": [
+        "Computer Vision",
+        "Edge AI",
+        "MLOps",
+        "Deep Learning",
+    ],
+    "building": [
+        "gcpds-cv-pykit",
+        "Annot Harmony",
+        "Multimodal Search Engine",
+    ],
+    "status": "researching & building 🚀",
+}
+
 ```
 <br/>
 
